@@ -93,13 +93,13 @@
   display: inline-block;
 }
 
-.about-section {
-  padding: 80px;
+.about-page {
+  padding: 50px 80px;
 }
 .about-page button {
   background-color: transparent;
   color: #38adfb;
-  padding: 8px 50px;
+  padding: 8px 30px;
   border-radius: 10px;
   border: 2px solid #38adfb;
   transition: all 0.5s ease;
@@ -114,6 +114,7 @@
 }
 .about-page p i { 
   margin-right: 5px;
+  color: #32c8f6;
 }
 
 
@@ -138,7 +139,9 @@
 
 .second-section{
   background-color: #f5f6f8;
-  padding: 80px 0;
+}
+.about-container{
+  padding: 80px;
 }
 .cards text :hover{
   margin-bottom: 20px;
@@ -181,8 +184,23 @@
   margin-bottom: 30px;
 }
 .about-bar{
-  margin-top: 50px;
+  margin-bottom: 25px;
+  height: 9px;
+  border-radius: 0px;
 }
+.skill-np{
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.bar-c{
+  background-color: #37517e;
+}
+
+
+
 
 
 
@@ -388,4 +406,29 @@
   font-size: 20px;
   font-weight: 700;
 }
+.card-price span{
+  font-size: 40px;
+  color: #32c8f6;
+}
+.card-price li{
+  list-style: none;
+}
+.card-price li i{
+  font-size: 15px;
+  color: #00e200;
+  margin-right: 10px;
+}
+.card-price button{
+  width: 130px;
+  padding: 10px 10px;
+  border-radius: 30px;
+  border: 2px solid #32c8f6;
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+.card-price button:hover{
+  background-color: #32c8f6;
+  color: #fff;
+}
+
 
